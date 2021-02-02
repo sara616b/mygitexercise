@@ -1,0 +1,22 @@
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-evenly;
+  max-width: 80%;
+  background-color: rgb(196, 116, 116);
+}
+
+.menu li {
+  flex-grow: 1;
+  flex-basis: 50px;
+  border-right: 1px solid black;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li:last-of-type {
+  border-right: 0 solid black;
+}
